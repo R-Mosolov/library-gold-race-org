@@ -1,0 +1,13 @@
+@use './global/sizes';
+
+.storybook-text-block {
+  padding: sizes.$m;
+  display: flex;
+  border: 0.5px solid lightgrey;
+  border-radius: 10px;
+  background-color: rgba(rgb(216, 225, 227), 0.2);
+
+  & .icon {
+    margin-right: sizes.$s;
+  }
+}

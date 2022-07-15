@@ -1,0 +1,10 @@
+.storybook-table {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+
+  & th,
+  & td {
+    border: 1px solid lightgray;
+  }
+}
